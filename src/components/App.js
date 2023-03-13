@@ -19,7 +19,7 @@ function App() {
 
   const renderList = () => {
     
-    return data.map((eachQuote)); => (
+    return data.map((eachQuote)) => (
       <li className="list__item">
         <p className="list__quote">{eachQuote.quote}-</p>
         <p className="list__character">{eachQuote.character}</p>
